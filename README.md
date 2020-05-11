@@ -1,2 +1,5 @@
-# Line-Tagall
-Tagall line group chat members
+Tagall Bot
+
+Commands: Tagall
+
+@ every member in the group
