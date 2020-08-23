@@ -32,7 +32,7 @@ while True:
                 receiver = msg.to
                 sender = msg._from
                 try:
-                        if text.lower() == 'tagall':
+                        if text.lower() == '.tagall':
                                 group = line.getGroup(msg.to)
                                 line_Ids1 = [contact.mid for contact in group]
                                 if len(line_Ids1) >= 1:
