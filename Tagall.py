@@ -34,7 +34,7 @@ while True:
                 try:
                         if text.lower() == '.tagall':
                                 group = line.getGroup(msg.to)
-                                line_Ids1 = [contact.mid for contact in group]
+                                line_Ids1 = [contact.mid for contact in group.members]
                                 if len(line_Ids1) >= 1:
                                         line.mention(msg.to, line_Ids1[0:10])
                                         print("List 1 printed")
